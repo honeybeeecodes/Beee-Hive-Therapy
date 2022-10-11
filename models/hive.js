@@ -7,7 +7,7 @@ const Schema = mongoose.Schema;
 
 const Schema = mongoose.Schema;
 	
-const movieSchema = new Schema({
+const hiveSchema = new Schema({
   title: String,
   releaseYear: Number,
   mpaaRating: String,
