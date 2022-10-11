@@ -2,8 +2,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/movies');
-
+mongoose.connect('mongodb://localhost/beee-hive');
 
 	
 // shortcut to mongoose.connection object
