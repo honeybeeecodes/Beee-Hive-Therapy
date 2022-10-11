@@ -1,4 +1,4 @@
-var express = require('express');
+var hive = require('hive');
 var router = express.Router();
 
 /* GET users listing. */
