@@ -1,15 +1,23 @@
 
 
+
+
+
+
 body {
   padding: 80px;
   font: 18px "TT Livret", Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-align: center;   
+    border: 30px;
+    border-style: solid;
+   
+
   background-color: #a06d0d;
+  border: solid, black;
 }
 
 
 
-a {
-  color: #00B7FF;
-}
+
+
 
