@@ -1,3 +1,17 @@
+
+
+// Load express
+
+const express = require('express')
+
+// Create our express app
+const app = express()
+
+app.get('/', function(req, res){
+
+})
+
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
