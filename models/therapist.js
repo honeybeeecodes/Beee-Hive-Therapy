@@ -7,7 +7,7 @@ const Schema = mongoose.Schema;
 
 
 	
-const hiveSchema = new Schema({
+const therapistSchema = new Schema({
   title: String,
   releaseYear: Number,
   mpaaRating: String,
