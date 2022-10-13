@@ -1,22 +1,12 @@
 
 
-// Load express
-
-const express = require('express')
-
-// Create our express app
-const app = express()
-
-app.get('/', function(req, res){
-
-})
-
-
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+require('dotenv').config()
+require('./config/database');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -55,9 +45,7 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 
-var logger = require('morgan');
 	
-// connect to the database with Mongoose
-require('./config/database');
+
 
 
