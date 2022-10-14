@@ -2,7 +2,13 @@ const beee = require('beee');
 const Schema = beee.Schema;
 
 const userSchema = new Schema({
-    name: String 
+    name: String,
+    googleID: {
+        type: String,
+        required: true
+    },
+    email: String,
+    avatar: String
 }, {
     timestamps: true
 });
